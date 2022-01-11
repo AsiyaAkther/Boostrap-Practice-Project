@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap');
+/* common style start */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+.section-role{
+    border:5px dotted #fff;
+    border-bottom:none;
+    width:50px;
+}
+.section-title h3{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.icon-style{
+    background: #bb0aac;
+    color:#fff;
+    padding:15px;
+    margin:5px 0;
+}
+section{
+    padding:4% 10%;
+}
+/* common style end */
+
+/* header start */
+header{
+    background-image: url(../images/background.jpg);
+    min-height: 100vh;
+    min-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+header::after{
+    content:'';
+    position: absolute;
+    background:#000;
+    height:100%;
+    width:100%;
+    opacity:0.7;
+    top:0;
+    left:0;
+}
+.logo-img{
+    width:80px;
+}
+.navbar{
+    padding:1% 10%;
+    position:relative;
+    z-index: 2;
+}
+.nav-link{
+    font-size:20px;
+    transition: .5s;
+    border-radius: 10px;
+    margin:5px;
+    padding:5px 10px;
+}
+.navbar .navbar-nav .nav-item a:hover{
+    background:#2980b9;
+    color:#fff;
+    transition: .5s;
+}
+.banner{
+    position:relative;
+    z-index: 2;
+}
+.banner-container{
+    min-height:500px;
+}
+.banner-container h1{
+    font-size:3.5rem;
+    background:rgba(31, 18, 66, 0.7);
+    font-family: 'Handlee', cursive;
+    padding:10px 20px;
+    border-radius: 5px;
+}
+/* header end */
+
+/* feature start */
+#features{
+    padding: 5% 10%;
+    background: #e8ded2;
+}
+.features-col{
+    border:1px solid #ff02c0;
+    border-radius: 5px;
+    padding:15px;
+    margin:20px 0;
+    transition:1s;
+}
+.features-col:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px #333;
+}
+/* feature end */
+
+/* about-me start*/
+#about-me{
+    background:#dad0c6;
+}
+#about-me .section-title .section-role{
+    border-color: #000;
+}
+#about-me p{
+    font-size:1rem;
+    margin-bottom:5px;
+    font-weight:light;
+}
+.skill-desc span{
+    margin-left:20px;
+    margin-bottom:5px;
+}
+/* about-me end*/
