@@ -123,3 +123,91 @@ header::after{
     margin-bottom:5px;
 }
 /* about-me end*/
+/* tutorial start */
+#tutorial{
+    background:#a3d2ca;
+    color:#fff;
+}
+.card{
+    transition:1s;
+    border:1px solid #8d3e79;
+}
+.card:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px #333;
+}
+/* tutorial end */
+
+/* feedback start */
+#feedback{
+    background: #5eaaa8;
+    color:#fff;
+}
+.carousel-item{
+    padding:5% 15%;
+    text-align:center;
+    font-style:italic;
+    font-size:1.2rem;
+}
+.feedback-img{
+    width:150px;
+    height:auto;
+}
+/* feedback end */
+/* contact start */
+#contact{
+    background: #499693;
+}
+#contact .form-group label{
+    font-weight:bold;
+    color:#fff;
+}
+/* contact end */
+
+/* footer start */
+footer{
+    padding:2% 10%;
+    background:#056676;
+}
+footer a{
+    color:#fff;
+    margin:0 5px;
+    font-size: 20px;
+}
+footer a:hover{
+    color:#333;
+}
+/* footer end */
+
+@media (max-width:768px) {
+    .section-title h3{
+        font-weight: bold;
+    }
+    .navbar .nav-item .nav-link{
+        background:rgba(133, 153, 165, 0.4);
+    }
+    .banner-container{
+        min-height: 400px;
+    }
+    .banner-container h1{
+        font-size:2.5rem;
+    }
+    .section-title{
+        margin-bottom:30px;
+    }
+    #about-me p{
+        font-size:0.8rem;
+    }
+    .basic-desc{
+        width:77%;
+        margin:0 auto;
+    }
+    .skill-desc{
+        width:55%;
+        margin:0 auto;
+    }
+    .carousel-item{
+        font-size:0.9rem;
+    }
+}
